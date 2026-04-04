@@ -1,0 +1,572 @@
+{
+  "business": {
+    "name": "Summit Appliance Repair",
+    "phone": "555-app-r91",
+    "category": "appliance-repair",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  "design": {
+    "preset": {
+      "id": "appliance-repair-mountain-bold",
+      "categoryGroup": "appliance-repair",
+      "name": "Mountain Bold",
+      "recipeFile": "appliance-repair/mountain-bold.astro",
+      "colors": {
+        "primary": "#075985",
+        "primaryDark": "#053e5d",
+        "primaryLight": "#c1d6e1",
+        "secondary": "#0284C7",
+        "accent": "#06B6D4",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#075985",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "appliance-repair/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Orlando's Appliance Repair Experts",
+      "heroSubline": "Fast, reliable service for every major brand. Serving Central Florida homes since 2010 with same-day emergency repairs.",
+      "aboutTitle": "Why Orlando Trusts Summit Appliance Repair",
+      "aboutText": [
+        "Founded in 2010 by two local technicians, Summit Appliance Repair has grown from a small van operation to Orlando's most trusted appliance service team. We've fixed everything from vintage 1950s refrigerators in College Park to smart ovens in Lake Nona's newest developments.",
+        "Our approach blends old-school craftsmanship with modern diagnostic tools. Every technician completes 150 hours of brand-specific training, and we stock more parts than any competitor in Orange County.",
+        "We're proud to support local charities like Second Harvest Food Bank, and our technicians volunteer free repairs for elderly residents during hurricane season."
+      ],
+      "valueProps": [
+        {
+          "title": "Same-Day Service",
+          "description": "Most Orlando repairs completed within 4 hours - critical in our humid climate where spoiled food risks grow fast."
+        },
+        {
+          "title": "Local Parts Warehouse",
+          "description": "Our Sanford facility stocks 5,000+ parts, eliminating week-long waits for replacements common with other companies."
+        },
+        {
+          "title": "Hurricane Preparedness Checks",
+          "description": "Free pre-storm inspections ensure your fridge and freezer can withstand power fluctuations common in Florida summers."
+        },
+        {
+          "title": "Historic Home Specialists",
+          "description": "We know how to service antique appliances in Winter Park's historic districts without damaging original cabinetry."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Repair Before 2 PM for Same-Day Service",
+      "ctaSubline": "Call 555-APP-R91 now - our lines are open from 7 AM to 7 PM daily"
+    },
+    "services": [
+      {
+        "slug": "refrigerator-repair",
+        "name": "Refrigerator Repair",
+        "shortDescription": "Emergency cooling system repairs to protect Orlando groceries from spoiling in our heat.",
+        "description": "Florida's relentless heat and humidity put extraordinary strain on refrigeration systems. We specialize in diagnosing compressor failures, sealed system leaks, and condenser coil issues - the most common problems in Orlando's older homes. Our technicians carry infrared thermometers to pinpoint temperature fluctuations before food spoils.\n\nFor vacation rental properties in Kissimmee, we install commercial-grade door gaskets that withstand constant use. In Baldwin Park's newer builds, we're certified to repair smart fridge WiFi boards that fail during lightning storms. Every repair includes a complimentary condenser coil cleaning - critical in our sandy environment where dust accumulation reduces efficiency by 30%.",
+        "process": [
+          "Step 1: Performance test with digital thermometers at three shelf levels",
+          "Step 2: Inspection of condenser coils for Central Florida sand/dust buildup",
+          "Step 3: Diagnosis of sealed system components using ultraviolet leak detection",
+          "Step 4: Post-repair temperature stabilization monitoring for 30 minutes"
+        ],
+        "benefits": [
+          "Prevents food spoilage during Orlando's long summers",
+          "Reduces energy consumption by up to 25%",
+          "Extends appliance lifespan despite harsh climate",
+          "Specialized care for historic home cabinetry"
+        ],
+        "faq": [
+          {
+            "question": "Why does my fridge run constantly in summer?",
+            "answer": "Orlando's high ambient temperatures force refrigerators to work harder. We install upgraded condenser fan motors and clean coils to improve efficiency."
+          },
+          {
+            "question": "How often should vacation rental fridges be serviced?",
+            "answer": "Kissimmee rental properties need bi-annual maintenance due to heavy usage patterns and door gasket wear from frequent guest turnover."
+          }
+        ]
+      },
+      {
+        "slug": "washer-dryer-repair",
+        "name": "Washer & Dryer Repair",
+        "shortDescription": "Expert repairs for Florida's hard water and humidity damage to laundry systems.",
+        "description": "Central Florida's mineral-rich water and daily humidity create unique challenges for laundry appliances. We frequently repair clogged drain pumps from limescale buildup in Lake Mary's upscale homes, and moisture-damaged control boards in Sanford's historic properties where laundry rooms lack ventilation.\n\nFor Orlando's 1950s-70s block homes with small laundry closets, we specialize in compact stackable unit repairs. Our technicians are trained to identify early signs of motor burnout from overloaded drums - a common issue in family homes across Mills 50. Every service includes a free moisture sensor test to prevent mold growth in drum seals, particularly important during our rainy season from May through October.",
+        "process": [
+          "Step 1: Water pressure and drainage speed test",
+          "Step 2: Drum balance and bearing inspection",
+          "Step 3: Control board diagnostic for humidity corrosion",
+          "Step 4: Limescale removal from internal components"
+        ],
+        "benefits": [
+          "Prevents water damage to Orlando home foundations",
+          "Reduces energy costs on older dryers by 20-30%",
+          "Eliminates musty odors from humid drum environments",
+          "Specialized care for stacked units in tight spaces"
+        ],
+        "faq": [
+          {
+            "question": "Why does my washer smell like mildew?",
+            "answer": "Daily Orlando humidity causes bacteria growth in detergent residue. We perform deep cleanings with commercial-grade descalers and install vented door seals."
+          },
+          {
+            "question": "How can I protect my dryer from storm power surges?",
+            "answer": "We recommend whole-house surge protectors, especially in Winter Park where older electrical systems are vulnerable to lightning strikes."
+          }
+        ]
+      },
+      {
+        "slug": "oven-range-repair",
+        "name": "Oven & Range Repair",
+        "shortDescription": "Reliable repairs for everything from vintage Wedgewoods to modern smart ranges.",
+        "description": "Orlando's diverse housing stock means we service everything from 1940s Wedgewood stoves in Winter Park estates to induction cooktops in Baldwin Park's energy-efficient homes. We're particularly experienced with burner and ignition issues caused by our sandy soil - windblown particles frequently clog gas ports in open-air kitchens common to Florida homes.\n\nFor vacation properties near International Drive, we offer commercial-grade bake element replacements that withstand constant use. In Thornton Park's historic renovations, we carefully service vintage appliances while preserving original backsplashes. Our technicians carry specialized tools to calibrate oven temperatures - crucial for Orlando bakers dealing with summer kitchen heat that throws off thermostat accuracy.",
+        "process": [
+          "Step 1: Full temperature calibration test using industrial thermometer",
+          "Step 2: Gas pressure and ignition safety check (for gas models)",
+          "Step 3: Element continuity and insulation testing",
+          "Step 4: Control panel diagnostic for humidity-related issues"
+        ],
+        "benefits": [
+          "Precise temperature control for Florida cooking",
+          "Specialized care for historic home kitchens",
+          "Reduces fire risks from faulty igniters",
+          "Commercial-grade parts for rental properties"
+        ],
+        "faq": [
+          {
+            "question": "Why does my oven take forever to preheat?",
+            "answer": "Sandy soil particles degrade bake elements over time. We install upgraded elements with protective ceramic coatings that last longer in our environment."
+          },
+          {
+            "question": "Can you repair my 1950s oven without damaging the original tile?",
+            "answer": "Yes, we use non-marring tools and custom-sized replacement parts to preserve historic finishes in Winter Park and Sanford homes."
+          }
+        ]
+      },
+      {
+        "slug": "dishwasher-repair",
+        "name": "Dishwasher Repair",
+        "shortDescription": "Expert repairs for hard water damage and Florida humidity issues.",
+        "description": "Orange County's hard water wreaks havoc on dishwasher pumps, jets, and heating elements. We specialize in descaling treatments that remove stubborn mineral deposits - a service needed twice as often in Orlando compared to other regions. Our technicians are trained to identify early signs of moisture damage to control panels, particularly in older homes near Lake Eola where humidity penetrates casings.\n\nFor newer developments like Lake Nona, we repair smart dishwasher connectivity issues caused by Florida's frequent lightning storms. In College Park's mid-century homes, we carefully service built-in units without damaging original cabinetry. Every repair includes a free float switch inspection - critical in Florida where overflowing dishwashers can cause significant damage to our slab foundations.",
+        "process": [
+          "Step 1: Water pressure and drainage performance test",
+          "Step 2: Full descaling of spray arms and filters",
+          "Step 3: Heating element resistance check",
+          "Step 4: Door seal integrity test for humidity protection"
+        ],
+        "benefits": [
+          "Eliminates hard water spotting on glassware",
+          "Prevents leaks that damage Orlando slab foundations",
+          "Restores full cleaning power to jets",
+          "Specialized care for built-in historic units"
+        ],
+        "faq": [
+          {
+            "question": "Why does my dishwasher leave cloudy residue?",
+            "answer": "Central Florida's water has 3x more minerals than national average. We install phosphate-free detergent dispensers and perform deep descaling treatments."
+          },
+          {
+            "question": "How often should I service my dishwasher?",
+            "answer": "Annual maintenance is critical in Orlando to prevent hard water damage - we recommend scheduling before summer when usage increases."
+          }
+        ]
+      },
+      {
+        "slug": "microwave-repair",
+        "name": "Microwave Repair",
+        "shortDescription": "Fast repairs for over-the-range microwaves common in Orlando kitchens.",
+        "description": "Over-the-range microwaves in Orlando face unique challenges from both cooking steam and intense summer heat. We frequently repair ventilation fan failures in homes near the Winter Park Chain of Lakes, where humidity accelerates motor corrosion. Our technicians are experts at diagnosing magnetron issues caused by power surges during our frequent thunderstorms.\n\nFor Baldwin Park's newer kitchens, we service convection microwave combinations that require specialized testing equipment. In historic Thornton Park homes, we carefully remove built-in units without damaging original cabinetry. Every repair includes a complimentary ventilation efficiency test - particularly important for Orlando kitchens where proper steam removal prevents mold growth in our humid climate.",
+        "process": [
+          "Step 1: Power output test using microwave-safe thermometer",
+          "Step 2: Ventilation fan motor inspection for humidity damage",
+          "Step 3: Door seal integrity check with RF leakage detector",
+          "Step 4: Turntable motor and guide inspection"
+        ],
+        "benefits": [
+          "Prevents fire risks from arcing magnetrons",
+          "Restores proper ventilation for Florida cooking",
+          "Specialized care for built-in historic units",
+          "Reduces energy waste from inefficient operation"
+        ],
+        "faq": [
+          {
+            "question": "Why does my microwave spark when I use it?",
+            "answer": "Florida humidity causes moisture buildup that damages waveguide covers. We replace them with upgraded stainless steel components that resist corrosion."
+          },
+          {
+            "question": "Can you fix my microwave without removing the cabinetry?",
+            "answer": "Yes, we use specialized tools to service over-the-range units in Winter Park historic homes without disturbing original woodwork."
+          }
+        ]
+      },
+      {
+        "slug": "ice-maker-repair",
+        "name": "Ice Maker Repair",
+        "shortDescription": "Emergency repairs to keep Orlando families cool in our relentless heat.",
+        "description": "In a city where summer temperatures average 92°F, ice maker failures constitute real emergencies. We specialize in diagnosing water valve issues caused by Orlando's mineral-rich water supply - the #1 cause of ice maker failures in Orange County homes. Our technicians carry portable ice production testers to verify repairs under actual Florida humidity conditions.\n\nFor vacation rentals near International Drive, we install commercial-grade augers that withstand constant use. In Sanford's historic downtown homes, we carefully service undercounter units without damaging original flooring. Every repair includes a free water filter replacement - critical for preventing the sandy sediment common in our groundwater from clogging systems.",
+        "process": [
+          "Step 1: Water pressure and fill time measurement",
+          "Step 2: Thermostat calibration test for Florida conditions",
+          "Step 3: Full descaling of water distribution system",
+          "Step 4: Ice production test under humidity-controlled conditions"
+        ],
+        "benefits": [
+          "Prevents dehydration risks during Orlando summers",
+          "Eliminates cloudy ice from mineral deposits",
+          "Commercial-grade parts for high-usage homes",
+          "Specialized care for built-in historic units"
+        ],
+        "faq": [
+          {
+            "question": "Why does my ice taste metallic?",
+            "answer": "Central Florida's water reacts with cheap water filters. We install NSF-certified filters that completely remove metallic tastes."
+          },
+          {
+            "question": "How can I prevent my ice maker from freezing up?",
+            "answer": "We install thermostat overrides that compensate for Orlando's extreme summer heat, preventing freeze-ups during heat waves."
+          }
+        ]
+      },
+      {
+        "slug": "garbage-disposal-repair",
+        "name": "Garbage Disposal Repair",
+        "shortDescription": "Fast fixes for disposal issues caused by Florida's unique diet and humidity.",
+        "description": "Orlando's combination of outdoor living and tropical produce creates distinctive disposal challenges. We commonly repair units jammed by avocado pits from backyard trees or corroded by citrus acid in Sanford homes with fruit-bearing landscapes. Our technicians carry specialized wrenches to manually free jammed flywheels - often needed after holiday meals when bones and corn husks overwhelm systems.\n\nFor Lake Nona's new construction, we service high-end insinkerator systems with magnetic reset features. In Thornton Park's historic bungalows, we carefully work with older plumbing configurations. Every repair includes a free splash guard inspection - particularly important in Florida where open-concept kitchens expose living areas to potential odors from disposal leaks.",
+        "process": [
+          "Step 1: Power circuit and reset button test",
+          "Step 2: Manual flywheel inspection for obstructions",
+          "Step 3: Splash guard seal integrity check",
+          "Step 4: Corrosion inspection of internal components"
+        ],
+        "benefits": [
+          "Prevents kitchen odors in Orlando's heat",
+          "Specialized care for historic home plumbing",
+          "Reduces fruit fly infestations from leaks",
+          "High-torque motor repairs for tough waste"
+        ],
+        "faq": [
+          {
+            "question": "Why does my disposal hum but not turn?",
+            "answer": "Florida humidity causes rust that seizes flywheels. We use commercial-grade penetrants and replacement components rated for moist environments."
+          },
+          {
+            "question": "Can you repair my disposal without removing the sink?",
+            "answer": "Yes, we use compact tools to service most units in Winter Park historic kitchens without disturbing original cabinetry."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marianne K.",
+        "rating": 5,
+        "service": "Refrigerator Repair",
+        "text": "Saved $1,200 on a new fridge when our 12-year-old Whirlpool died during July heat wave. Technician diagnosed a failed condenser fan that was causing compressor overload - had it running cold in 90 minutes. Even cleaned all the built-up sand from the coils I didn't know was there. Our Lake Nona smart fridge works better than the day we bought it!",
+        "date": "2025-07-18"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "service": "Washer Repair",
+        "text": "Our vacation rental washer in Kissimmee kept tripping the breaker every third load. Summit identified a failing drain pump motor that was drawing too much current - something three other companies missed. Fixed same-day before our next guests arrived. Now we schedule preventive maintenance with them every six months.",
+        "date": "2025-05-22"
+      },
+      {
+        "name": "Bethany W.",
+        "rating": 5,
+        "service": "Oven Repair",
+        "text": "As a Winter Park historic homeowner, I was terrified about getting our 1954 Wedgewood stove serviced. Technician arrived with specialty tools and actually improved the original burner performance while preserving the enamel. Took photos of the process for our home records. Temperature is now accurate within 5 degrees - perfect for canning season.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Darnell T.",
+        "rating": 5,
+        "service": "Ice Maker Repair",
+        "text": "Our Sub-Zero ice maker died during the August heat wave with three kids home from school. Technician diagnosed a clogged water line from Sanford's hard water and installed an upgraded filtration system. Now makes ice 30% faster and the kids say it tastes 'like store bought'. Same-day service saved our grocery budget - no more bagged ice!",
+        "date": "2025-08-09"
+      },
+      {
+        "name": "Sophia L.",
+        "rating": 5,
+        "service": "Dishwasher Repair",
+        "text": "After two companies told us our 8-year-old Bosch needed replacement, Summit found a mineral-clogged water inlet valve. Technician spent two hours descaling every component with some industrial-strength solution. Dishes come out spotless now - better than when it was new. Even showed me how to maintain it with vinegar rinses for Orlando's hard water.",
+        "date": "2025-04-30"
+      },
+      {
+        "name": "Marcus B.",
+        "rating": 5,
+        "service": "Garbage Disposal Repair",
+        "text": "Our disposal started leaking after grinding mango pits from our backyard tree. Technician replaced the sink flange with a heavy-duty model and reinforced the plumbing connections. Caught it just before water damage could reach our Baldwin Park home's foundation. Bonus - showed my son how to use the hex wrench reset safely.",
+        "date": "2025-06-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Orlando Appliance Repair - Same-Day Service",
+        "description": "Trusted appliance repair serving Orlando since 2010. Fast fixes for refrigerators, washers, ovens & more. Same-day emergency service available."
+      },
+      "about": {
+        "title": "About Summit - Orlando's Appliance Experts",
+        "description": "Meet Orlando's most trusted appliance repair team. Local technicians with 150+ hours of brand-specific training serving Central Florida since 2010."
+      },
+      "services": {
+        "title": "Appliance Repair Services in Orlando",
+        "description": "Complete appliance"
+      }
+    },
+    "serviceAreas": [
+      {
+        "city": "Kissimmee",
+        "slug": "kissimmee-fl",
+        "state": "FL",
+        "content": "Summit Appliance Repair is proud to serve Kissimmee, FL, where vacation rental properties dominate the housing market. With a population of around 80,000, Kissimmee's high demand for reliable appliance repair services makes us the go-to choice for homeowners and property managers alike. Our team is well-versed in handling the wear and tear that comes with frequent rental turnovers, ensuring appliances are always in top condition. The hot, humid summers in Kissimmee can take a toll on appliances, especially refrigerators and air conditioning units. Let our expert technicians keep your appliances running smoothly year-round.",
+        "localContext": "Kissimmee is known for its vacation rental properties and proximity to major theme parks, creating a high demand for appliance maintenance.",
+        "nearbyAreas": [
+          "St. Cloud",
+          "Celebration",
+          "Poinciana"
+        ]
+      },
+      {
+        "city": "Winter Park",
+        "slug": "winter-park-fl",
+        "state": "FL",
+        "content": "Winter Park, FL, with its charming historic homes from the 1920s-40s, is a community we're honored to serve. Many of these Mediterranean Revival residences feature original appliances that require specialized care. Summit Appliance Repair understands the unique needs of these vintage homes and provides repairs that preserve their character. The hot, humid climate of Winter Park can cause strain on appliances, particularly older models. Whether it's a classic refrigerator or a modern dishwasher, our skilled technicians ensure reliable service to keep your home running efficiently.",
+        "localContext": "Winter Park is renowned for its historic 1920s-40s Mediterranean Revival architecture and tree-lined streets.",
+        "nearbyAreas": [
+          "Maitland",
+          "Orlando",
+          "Eatonville"
+        ]
+      },
+      {
+        "city": "Sanford",
+        "slug": "sanford-fl",
+        "state": "FL",
+        "content": "Sanford, FL, with its vibrant historic downtown and beautiful older homes, is a community we're proud to serve. Many of these properties feature appliances that need expert attention to maintain their functionality. Summit Appliance Repair specializes in diagnosing and fixing issues unique to older systems while also servicing modern appliances. The hot, humid summers in Sanford can accelerate appliance wear and tear, making regular maintenance essential. From historic homes to newer developments, our team delivers fast, reliable repairs to keep your household running smoothly.",
+        "localContext": "Sanford boasts a thriving historic downtown district and a mix of charming older homes and newer residences.",
+        "nearbyAreas": [
+          "Lake Mary",
+          "Longwood",
+          "Deltona"
+        ]
+      },
+      {
+        "city": "Lake Mary",
+        "slug": "lake-mary-fl",
+        "state": "FL",
+        "content": "Lake Mary, FL, known for its upscale 1990s-2000s developments, is an area where Summit Appliance Repair excels. Many homes in this community feature high-end appliances that require specialized knowledge to repair. Our technicians are trained to work with premium brands, ensuring your investments are well-maintained. The hot, humid climate in Lake Mary can challenge even the most durable appliances, particularly refrigerators and laundry machines. Whether it's a minor repair or a complex issue, we provide prompt, professional service to keep your household running efficiently.",
+        "localContext": "Lake Mary is recognized for its upscale residential developments and family-friendly atmosphere.",
+        "nearbyAreas": [
+          "Sanford",
+          "Longwood",
+          "Heathrow"
+        ]
+      },
+      {
+        "city": "Orlando",
+        "slug": "orlando-fl",
+        "state": "FL",
+        "content": "Summit Appliance Repair is proud to serve Orlando, FL, a bustling city with diverse housing styles and appliance needs. From downtown condos to suburban homes, we provide reliable appliance repair services tailored to each residence. Orlando's hot, humid climate puts extra stress on refrigerators, freezers, and air conditioning units, making regular maintenance crucial. Our skilled technicians are equipped to handle all major brands and models, ensuring quick turnaround times and lasting solutions. Whether it's a same-day emergency repair or routine service, we're committed to keeping Orlando homes running smoothly.",
+        "localContext": "Orlando is a dynamic city with a mix of urban and suburban neighborhoods, each with unique appliance needs.",
+        "nearbyAreas": [
+          "Winter Park",
+          "Maitland",
+          "Ocoee"
+        ]
+      },
+      {
+        "city": "Apopka",
+        "slug": "apopka-fl",
+        "state": "FL",
+        "content": "Apopka, FL, known for its rural charm and growing suburban communities, is an area we're delighted to serve. Summit Appliance Repair understands the appliance needs of both older homes and newer constructions in this evolving city. The hot, humid summers in Apopka can be tough on appliances, particularly washers, dryers, and refrigerators. Our team specializes in diagnosing and resolving issues quickly, minimizing downtime for your household. From routine maintenance to emergency repairs, we provide dependable service to keep Apopka homes operating efficiently.",
+        "localContext": "Apopka blends rural landscapes with expanding suburban developments, creating diverse appliance repair needs.",
+        "nearbyAreas": [
+          "Ocoee",
+          "Winter Garden",
+          "Altamonte Springs"
+        ]
+      },
+      {
+        "city": "Oviedo",
+        "slug": "oviedo-fl",
+        "state": "FL",
+        "content": "Oviedo, FL, with its family-oriented neighborhoods and excellent schools, is a community we're honored to serve. Summit Appliance Repair understands the importance of reliable appliances in busy households. The hot, humid climate in Oviedo can cause premature wear on refrigerator seals, dishwasher pumps, and oven components. Our technicians are experts at identifying and fixing these climate-related issues. Whether it's a top-loading washer in a suburban home or a built-in microwave in a newer construction, we provide prompt, professional service to Oviedo residents.",
+        "localContext": "Oviedo is known for its top-rated schools and family-friendly communities with well-maintained homes.",
+        "nearbyAreas": [
+          "Winter Springs",
+          "Chuluota",
+          "Casselberry"
+        ]
+      },
+      {
+        "city": "Winter Springs",
+        "slug": "winter-springs-fl",
+        "state": "FL",
+        "content": "Winter Springs, FL, with its beautiful parks and well-established neighborhoods, is an area we're proud to serve. Summit Appliance Repair specializes in maintaining the appliances that keep these homes running smoothly. The hot, humid weather in Winter Springs can be particularly hard on refrigerator cooling systems and dishwasher components. Our technicians are skilled at addressing these climate-specific challenges. From older homes to recent constructions, we provide reliable repairs for all major appliance brands, ensuring Winter Springs residents enjoy uninterrupted home convenience.",
+        "localContext": "Winter Springs features established residential areas with a mix of mid-century and newer homes.",
+        "nearbyAreas": [
+          "Oviedo",
+          "Casselberry",
+          "Longwood"
+        ]
+      },
+      {
+        "city": "Maitland",
+        "slug": "maitland-fl",
+        "state": "FL",
+        "content": "Maitland, FL, with its mix of historic properties and modern residences, is a community we're delighted to serve. Summit Appliance Repair understands the unique appliance needs of these diverse homes. The hot, humid climate in Maitland can cause moisture-related issues in refrigerators and other appliances. Our technicians are experts at identifying and resolving these problems efficiently. Whether it's a vintage oven in a historic home or a smart refrigerator in a contemporary condo, we provide Maitland residents with top-quality appliance repair services.",
+        "localContext": "Maitland features a blend of historic architecture and modern developments near beautiful lakes.",
+        "nearbyAreas": [
+          "Winter Park",
+          "Eatonville",
+          "Altamonte Springs"
+        ]
+      },
+      {
+        "city": "Altamonte Springs",
+        "slug": "altamonte-springs-fl",
+        "state": "FL",
+        "content": "Altamonte Springs, FL, a thriving suburban community, is an area where Summit Appliance Repair excels. With a mix of apartment complexes and single-family homes, we're equipped to handle all types of appliance repairs. The hot, humid weather in Altamonte Springs can strain air conditioning units and refrigeration systems. Our technicians specialize in preventing and repairing these climate-induced issues. From compact apartment appliances to large family-sized units, we provide reliable service to keep Altamonte Springs households running smoothly throughout the year.",
+        "localContext": "Altamonte Springs offers a convenient suburban lifestyle with a mix of residential and commercial developments.",
+        "nearbyAreas": [
+          "Longwood",
+          "Casselberry",
+          "Winter Springs"
+        ]
+      }
+    ],
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "500+",
+      "satisfaction": "98%",
+      "teamSize": "15+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "refrigerator-repair": "/images/service-refrigerator-repair.webp",
+      "washer-dryer-repair": "/images/service-washer-dryer-repair.webp",
+      "oven-range-repair": "/images/service-oven-range-repair.webp",
+      "dishwasher-repair": "/images/service-dishwasher-repair.webp",
+      "microwave-repair": "/images/service-microwave-repair.webp",
+      "ice-maker-repair": "/images/service-ice-maker-repair.webp",
+      "garbage-disposal-repair": "/images/service-garbage-disposal-repair.webp"
+    },
+    "servicesResponsive": {
+      "refrigerator-repair": {
+        "src": "/images/service-refrigerator-repair.webp",
+        "srcset": "/images/service-refrigerator-repair-400w.webp 400w, /images/service-refrigerator-repair-800w.webp 800w, /images/service-refrigerator-repair-1200w.webp 1200w, /images/service-refrigerator-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "washer-dryer-repair": {
+        "src": "/images/service-washer-dryer-repair.webp",
+        "srcset": "/images/service-washer-dryer-repair-400w.webp 400w, /images/service-washer-dryer-repair-800w.webp 800w, /images/service-washer-dryer-repair-1200w.webp 1200w, /images/service-washer-dryer-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "oven-range-repair": {
+        "src": "/images/service-oven-range-repair.webp",
+        "srcset": "/images/service-oven-range-repair-400w.webp 400w, /images/service-oven-range-repair-800w.webp 800w, /images/service-oven-range-repair-1200w.webp 1200w, /images/service-oven-range-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "dishwasher-repair": {
+        "src": "/images/service-dishwasher-repair.webp",
+        "srcset": "/images/service-dishwasher-repair-400w.webp 400w, /images/service-dishwasher-repair-800w.webp 800w, /images/service-dishwasher-repair-1200w.webp 1200w, /images/service-dishwasher-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "microwave-repair": {
+        "src": "/images/service-microwave-repair.webp",
+        "srcset": "/images/service-microwave-repair-400w.webp 400w, /images/service-microwave-repair-800w.webp 800w, /images/service-microwave-repair-1200w.webp 1200w, /images/service-microwave-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "ice-maker-repair": {
+        "src": "/images/service-ice-maker-repair.webp",
+        "srcset": "/images/service-ice-maker-repair-400w.webp 400w, /images/service-ice-maker-repair-800w.webp 800w, /images/service-ice-maker-repair-1200w.webp 1200w, /images/service-ice-maker-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "garbage-disposal-repair": {
+        "src": "/images/service-garbage-disposal-repair.webp",
+        "srcset": "/images/service-garbage-disposal-repair-400w.webp 400w, /images/service-garbage-disposal-repair-800w.webp 800w, /images/service-garbage-disposal-repair-1200w.webp 1200w, /images/service-garbage-disposal-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
